@@ -1,0 +1,26 @@
+# Code owners for the repository
+
+# Global ownership
+* @buckyos/vibe-ui-team
+
+# Apps
+/apps/ @buckyos/vibe-ui-team
+
+# Packages
+/packages/ @buckyos/vibe-ui-team
+
+# Design tokens specifically
+/packages/design-tokens/ @buckyos/design-team @buckyos/vibe-ui-team
+
+# Documentation
+/docs/ @buckyos/vibe-ui-team
+/README.md @buckyos/vibe-ui-team
+
+# Storybook
+/storybook/ @buckyos/vibe-ui-team
+
+# Configuration files
+/*.json @buckyos/vibe-ui-team
+/*.js @buckyos/vibe-ui-team
+/*.ts @buckyos/vibe-ui-team
+/.github/ @buckyos/vibe-ui-team
