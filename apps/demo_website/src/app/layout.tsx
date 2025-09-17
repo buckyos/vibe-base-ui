@@ -1,4 +1,7 @@
 import type { Metadata } from 'next'
+import 'antd/dist/reset.css'
+import { AntdRegistry } from '@ant-design/nextjs-registry'
+import '../i18n/request'
 
 export const metadata: Metadata = {
   title: 'Vibe Base UI',
@@ -12,7 +15,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <AntdRegistry>{children}</AntdRegistry>
+      </body>
     </html>
   )
 }

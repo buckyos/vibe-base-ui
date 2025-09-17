@@ -1,0 +1,32 @@
+{
+  "Common": {
+    "hello": "你好，世界",
+    "dark": "深色",
+    "light": "浅色",
+    "language": "语言",
+    "buttons": "按钮",
+    "primary": "主按钮",
+    "default": "默认",
+    "dashed": "虚线",
+    "text": "文本",
+    "link": "链接",
+    "withIcon": "带图标",
+    "inputs": "输入控件",
+    "basicInput": "基础输入框",
+    "search": "搜索",
+    "selectAnOption": "请选择",
+    "selectors": "选择控件",
+    "checkbox": "复选框",
+    "tabsFeedback": "标签页与反馈",
+    "tab1": "标签一",
+    "tab2": "标签二",
+    "tab1Content": "标签一内容",
+    "info": "提示",
+    "someInfo": "一些有用的信息。",
+    "blue": "蓝色",
+    "purple": "紫色",
+    "gold": "金色"
+  }
+}
+
+

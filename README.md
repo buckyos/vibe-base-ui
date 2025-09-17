@@ -45,7 +45,6 @@ pnpm storybook
 ## 📦 Packages
 
 - **@vibe-base-ui/react** - React components with TypeScript
-- **@vibe-base-ui/wc** - Web Components built with Lit
 - **@vibe-base-ui/headless** - Framework-agnostic logic hooks
 - **@vibe-base-ui/design-tokens** - Design system tokens
 - **@vibe-base-ui/utils** - Shared utility functions

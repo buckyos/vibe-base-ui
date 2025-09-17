@@ -1,0 +1,32 @@
+{
+  "Common": {
+    "hello": "Hello World",
+    "dark": "Dark",
+    "light": "Light",
+    "language": "Language",
+    "buttons": "Buttons",
+    "primary": "Primary",
+    "default": "Default",
+    "dashed": "Dashed",
+    "text": "Text",
+    "link": "Link",
+    "withIcon": "With Icon",
+    "inputs": "Inputs",
+    "basicInput": "Basic input",
+    "search": "Search",
+    "selectAnOption": "Select an option",
+    "selectors": "Selectors",
+    "checkbox": "Checkbox",
+    "tabsFeedback": "Tabs & Feedback",
+    "tab1": "Tab 1",
+    "tab2": "Tab 2",
+    "tab1Content": "Content of Tab 1",
+    "info": "Info",
+    "someInfo": "Some helpful information.",
+    "blue": "Blue",
+    "purple": "Purple",
+    "gold": "Gold"
+  }
+}
+
+
