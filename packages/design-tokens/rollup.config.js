@@ -21,7 +21,8 @@ export default defineConfig([
     plugins: [
       typescript({
         tsconfig: './tsconfig.json',
-        declaration: false
+        declaration: true,
+        declarationDir: 'dist/types'
       })
     ]
   },

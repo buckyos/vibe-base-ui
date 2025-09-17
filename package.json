@@ -4,10 +4,6 @@
   "private": true,
   "description": "Base repo for UI vibe coding",
   "type": "module",
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ],
   "scripts": {
     "build": "pnpm -r build",
     "dev": "pnpm -r dev",
@@ -20,13 +16,16 @@
     "build-storybook": "pnpm -C storybook build-storybook"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^6.8.0",
+    "@testing-library/react": "^16.3.0",
     "@types/node": "^20.0.0",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
+    "@vitest/ui": "^1.0.0",
     "eslint": "^8.0.0",
+    "jsdom": "^27.0.0",
     "typescript": "^5.0.0",
-    "vitest": "^1.0.0",
-    "@vitest/ui": "^1.0.0"
+    "vitest": "^1.0.0"
   },
   "packageManager": "pnpm@8.15.0",
   "engines": {

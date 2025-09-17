@@ -1,9 +1,9 @@
 import { LitElement, html, css } from 'lit'
-import { customElement, property } from 'lit/decorators.js'
+import { customElement } from 'lit/decorators.js'
 
 @customElement('vibe-button')
 export class VibeButton extends LitElement {
-  static styles = css`
+  static override styles = css`
     :host {
       display: inline-block;
     }
@@ -42,13 +42,23 @@ export class VibeButton extends LitElement {
     }
   `
 
-  @property({ type: String })
   variant: 'primary' | 'secondary' = 'primary'
-
-  @property({ type: Boolean })
   disabled = false
 
-  render() {
+  static override get properties() {
+    return {
+      variant: { type: String },
+      disabled: { type: Boolean }
+    }
+  }
+
+  constructor() {
+    super()
+    this.variant = 'primary'
+    this.disabled = false
+  }
+
+  override render() {
     return html`
       <button 
         class="${this.variant}"

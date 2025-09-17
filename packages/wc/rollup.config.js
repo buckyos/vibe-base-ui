@@ -23,7 +23,8 @@ export default defineConfig([
       nodeResolve(),
       typescript({
         tsconfig: './tsconfig.json',
-        declaration: false
+        declaration: true,
+        declarationDir: 'dist/types'
       })
     ]
   },

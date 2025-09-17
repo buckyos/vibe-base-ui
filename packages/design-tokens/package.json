@@ -17,8 +17,8 @@
     "dist"
   ],
   "scripts": {
-    "build": "style-dictionary build && rollup -c",
-    "build:tokens": "style-dictionary build",
+    "build": "style-dictionary build --config style-dictionary.config.json && rollup -c",
+    "build:tokens": "style-dictionary build --config style-dictionary.config.json",
     "dev": "npm run build:tokens -- --watch",
     "type-check": "tsc --noEmit"
   },
